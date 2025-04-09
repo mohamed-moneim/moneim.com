@@ -1,10 +1,13 @@
-import Image from "next/image";
 import './globals.css';
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Header from "./header";
 import Topbar from "./top-bar";
 import Footer from "./Footer";
+import { ImageResponse } from 'next/og'
+import { readFile } from 'node:fs/promises'
+import { join } from 'node:path'
+import App from 'next/app';
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'Services', href: '#', current: false },
@@ -15,7 +18,16 @@ const navigation = [
   { name: 'Blog', href: '#', current: false },
   { name: 'Contact Me', href: '#', current: false },
 ]
-export default function Home() {
+export const metadata = {
+  title: "Web Developer  Software Company in Alexandria, Egypt ",
+  description:
+    "Showcase of Photosphere, 360, and Panorama images from around the world. Upload and share your own!",
+  keywords: ["Photosphere", "360 Photo", "Panorama", "World Map"],
+  openGraph: {
+    images: 'https://photos.sphereshowcase.com/tBJczsgyzUAP3woETDr31.jpg',
+  },
+};
+ function Home() {
   return (
     <div className=""> 
     <Topbar />
@@ -123,3 +135,4 @@ export default function Home() {
                             </div>
                           )
     }
+    export default  Home

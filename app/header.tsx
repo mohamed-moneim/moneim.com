@@ -31,7 +31,7 @@ return (
           <div className="flex shrink-0 items-start">
             <img
               alt="Your Company"
-              src="img/mmoneim-logo.png"
+              src="./img/mmoneim-logo.png"
               className="h-32 mt-1 w-auto md:pl-10"
             />
           </div>

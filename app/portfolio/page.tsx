@@ -18,21 +18,20 @@ export default function Portfolio() {
                                 <h2 className="text-white pt-50 text-4xl">New Project</h2>
                                 <a className="text-white py-70 text-xl" href="#">Visit Project</a>
                             </div>
-                            <img src="./img/quran.png" className="logo" />
+                            <img src="../img/quran.png" className="logo" />
                             </div>
                             <div className="portfolio p-5 md:p-10 lg:p-10">
                 <div className="overlayblue">
                                 <h3 className="white align-bottom ">New Project</h3>
                                 <a className="align-bottom" href="#">Visit Project</a>
                             </div>
-                            <img src="./img/ludhiana.jpg" className="logo" />
                             </div>
                             <div className="portfolio p-5 md:p-10 lg:p-10">
                             <div className="overlayblue">
                                 <h3 className="white align-bottom ">New Project</h3>
                                 <a className="align-bottom" href="#">Visit Project</a>
                             </div>
-                            <img src="./img/iclinic.jpg" className="logo" />
+                            <img src="../img/iclinic.jpg" className="logo" />
                             </div>
       
                             <div className="portfolio p-5 md:p-10 lg:p-10">
@@ -40,7 +39,7 @@ export default function Portfolio() {
                                 <h3 className="white align-bottom ">New Project</h3>
                                 <a className="align-bottom" href="#">Visit Project</a>
                             </div>
-                            <img src="./img/securfone.png" className="logo" />
+                            <img src="../img/securfone.png" className="logo" />
                     </div>
                             </div>
                             </div>
